@@ -4,5 +4,4 @@
 - [HTML 风格指南](./html.md)
 - [CSS 风格指南](./css.md)
 - [JavaScript 风格指南](./javascript.md)
-- [Git 风格指南](./git.md)
 
