@@ -1,3 +1,13 @@
+---
+html:
+  embed_local_images: false
+  embed_svg: true
+  offline: false
+  toc: true
+
+print_background: false
+---
+
 # CSS 风格指南
 
 ## 一. 通用规则
@@ -122,24 +132,24 @@ border: 0;
 **不推荐：**
 
 ```css
-.p-998 { 
-	… 
-} 
+.p-998 {
+	…
+}
 
-.btn-green { 
-	… 
+.btn-green {
+	…
 }
 ```
 
 推荐：
 
 ```css
-.gallery { 
+.gallery {
 	…
-} 
+}
 
-.btn-default { 
-	… 
+.btn-default {
+	…
 }
 ```
 
@@ -154,24 +164,24 @@ border: 0;
 **不推荐：**
 
 ```css
-ul#example { 
-	… 
-} 
+ul#example {
+	…
+}
 
-div.error { 
-	… 
+div.error {
+	…
 }
 ```
 
 **推荐：**
 
 ```css
-.example { 
-	… 
-} 
+.example {
+	…
+}
 
-.error { 
-	… 
+.error {
+	…
 }
 ```
 
@@ -188,19 +198,19 @@ CSS 可提供多种简写属性（例如，padding，而不是 padding-top、pad
 ```css
 border-top-style: none;
 font-family: palatino, georgia, serif;
-font-size: 100%; 
-line-height: 1.6; 
-padding-bottom: 2em; 
-padding-left: 1em; 
-padding-right: 1em; 
+font-size: 100%;
+line-height: 1.6;
+padding-bottom: 2em;
+padding-left: 1em;
+padding-right: 1em;
 padding-top: 0;
 ```
 
 **推荐：**
 
 ```css
-border-top: 0; 
-font: 100%/1.6 palatino, georgia, serif; 
+border-top: 0;
+font: 100%/1.6 palatino, georgia, serif;
 padding: 0 1em 2em;
 ```
 
@@ -211,14 +221,14 @@ padding: 0 1em 2em;
 **不推荐：**
 
 ```css
-margin: 0em; 
+margin: 0em;
 padding: 0px;
 ```
 
 **推荐：**
 
 ```css
-margin: 0; 
+margin: 0;
 padding: 0;
 ```
 
@@ -265,9 +275,9 @@ color: #ebc;
 **不推荐：**
 
 ```css
-.demoimage { 
-	… 
-} 
+.demoimage {
+	…
+}
 
 .errorStatus {
 	…
@@ -277,12 +287,12 @@ color: #ebc;
 **推荐：**
 
 ```css
-.demo-image { 
-	… 
-} 
+.demo-image {
+	…
+}
 
-.error-status { 
-	… 
+.error-status {
+	…
 }
 ```
 
@@ -301,11 +311,11 @@ color: #ebc;
 推荐：
 
 ```css
-@media screen, projection { 
-	html { 
-		background: #fff; 
-		color: #444; 
-	} 
+@media screen, projection {
+	html {
+		background: #fff;
+		color: #444;
+	}
 }
 ```
 
@@ -316,18 +326,18 @@ color: #ebc;
 **不推荐：**
 
 ```css
-.test { 
-	display: block; 
-	height: 100px 
+.test {
+	display: block;
+	height: 100px
 }
 ```
 
 **推荐：**
 
 ```css
-.test { 
+.test {
 	display: block;
-	height: 100px; 
+	height: 100px;
 }
 ```
 
@@ -347,7 +357,7 @@ margin :0;
 
 ```css
 font-weight: bold;
-padding: 0; 
+padding: 0;
 margin: 0;
 ```
 
@@ -358,11 +368,11 @@ margin: 0;
 **不推荐：**
 
 ```css
-.video-block{ 
-	margin: 0; 
-} 
+.video-block{
+	margin: 0;
+}
 
-.audio-block{ 
+.audio-block{
 	margin: 0;
 }
 ```
@@ -370,12 +380,12 @@ margin: 0;
 **推荐：**
 
 ```css
-.video-block { 
-	margin: 0; 
-} 
+.video-block {
+	margin: 0;
+}
 
-.audio-block { 
-	margin: 0; 
+.audio-block {
+	margin: 0;
 }
 ```
 
@@ -386,20 +396,20 @@ margin: 0;
 **不推荐：**
 
 ```css
-h1, h2, h3 { 
-	font-weight: normal; 
-	line-height: 1.2; 
+h1, h2, h3 {
+	font-weight: normal;
+	line-height: 1.2;
 }
 ```
 
 **推荐：**
 
 ```css
-h1, 
-h2, 
-h3 { 
-	font-weight: normal; 
-	line-height: 1.2; 
+h1,
+h2,
+h3 {
+	font-weight: normal;
+	line-height: 1.2;
 }
 ```
 
@@ -410,13 +420,13 @@ h3 {
 **推荐：**
 
 ```css
-html { 
-	background: #fff; 
-} 
+html {
+	background: #fff;
+}
 
-body { 
-	margin: auto; 
-	width: 50%; 
+body {
+	margin: auto;
+	width: 50%;
 }
 ```
 
@@ -427,17 +437,17 @@ body {
 **不推荐：**
 
 ```css
-@import url("css/links.css"); 
-html { 
-	font-family: 'Open Sans', arial, sans-serif; 
+@import url("css/links.css");
+html {
+	font-family: 'Open Sans', arial, sans-serif;
 }
 ```
 
 **推荐：**
 
 ```css
-@import url(css/links.css); 
-html { 
-	font-family: "Open Sans", arial, sans-serif; 
+@import url(css/links.css);
+html {
+	font-family: "Open Sans", arial, sans-serif;
 }
 ```

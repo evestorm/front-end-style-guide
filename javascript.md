@@ -1,3 +1,13 @@
+---
+html:
+  embed_local_images: false
+  embed_svg: true
+  offline: false
+  toc: true
+
+print_background: false
+---
+
 # JavaScript 风格指南
 
 ## 一. 通用规则
