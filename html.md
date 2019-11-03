@@ -81,7 +81,7 @@ print_background: false
 ```html
 <!-- TODO: 对出下联 -->
 <ul>
-    <li>风吹云，云随风，风云变幻</li>
+   <li>风吹云，云随风，风云变幻</li>
 </ul>
 ```
 
@@ -151,20 +151,20 @@ print_background: false
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <style>
-  /*
-    此处省略 n 行样式
-    */
-  </style>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <style>
+   /*
+      此处省略 n 行样式
+   */
+   </style>
 </head>
 <body>
-  <script>
-  // 此处省略 n 行脚本
-  </script>
+   <script>
+   // 此处省略 n 行脚本
+   </script>
 </body>
 </html>
 ```
@@ -175,13 +175,13 @@ print_background: false
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <script src="js/app.js"></script>
+   <script src="js/app.js"></script>
 </body>
 </html>
 ```
@@ -222,47 +222,47 @@ print_background: false
 
 ```html
 <blockquote>
-    <p>啊！<em>船长！</em>我的船长！</p>
+   <p>啊！<em>船长！</em>我的船长！</p>
 </blockquote>
 <ul>
-	<li>啊．船长，我的船长！我们艰苦的航程已经终结，</li>
-	<li>这只船安然渡过了一切风浪，我们寻求的奖赏已经获得。</li>
-	<li>港口在望，我听见钟声在响，人们都在欢呼，</li>
-	<li>目迎着我们的船从容返航，它显得威严而英武。</li>
-	<li>可是，啊，心啊！心啊！心啊！</li>
-	<li>啊．殷红的鲜血长流，</li>
-	<li>在甲板上，那里躺着我的船长，</li>
-	<li>他已倒下，已死去，已冷却。</li>
-	<li>啊，船长，我的船长！起来吧，起来听听这钟声，</li>
-	<li>起来，——旌旗正为你招展——军号正为你发出颤音。</li>
-	<li>为你．送来了这些花束和花环。</li>
-	<li>为你，熙攘的群众在呼唤，转动着多少殷切的脸。</li>
-	<li>这里，船长！亲爱的父亲！</li>
-	<li>你头颅下边是我的手臂！</li>
-	<li>在甲板上像是在一场梦里，</li>
-	<li>你已倒下，已死去，已冷却。</li>
-	<li>我们的船长不作回答，他的双唇惨白而寂静，</li>
-	<li>我的父亲不能感觉我的手臂，他已没有脉息、没有知觉，</li>
-	<li>我们的船已安全抛锚碇泊，已经结束了它的航程，</li>
-	<li>胜利的船从险恶的旅途归来，我们寻求的已赢得手中。</li>
-	<li>欢呼吧，啊，海岸！轰鸣，啊，洪钟！</li>
-	<li>可是，我却轻移悲伤的步履，</li>
-	<li>在甲板上，那里躺着我的船长，</li>
-	<li>他已倒下，已死去，已冷却。</li>
+   <li>啊．船长，我的船长！我们艰苦的航程已经终结，</li>
+   <li>这只船安然渡过了一切风浪，我们寻求的奖赏已经获得。</li>
+   <li>港口在望，我听见钟声在响，人们都在欢呼，</li>
+   <li>目迎着我们的船从容返航，它显得威严而英武。</li>
+   <li>可是，啊，心啊！心啊！心啊！</li>
+   <li>啊．殷红的鲜血长流，</li>
+   <li>在甲板上，那里躺着我的船长，</li>
+   <li>他已倒下，已死去，已冷却。</li>
+   <li>啊，船长，我的船长！起来吧，起来听听这钟声，</li>
+   <li>起来，——旌旗正为你招展——军号正为你发出颤音。</li>
+   <li>为你．送来了这些花束和花环。</li>
+   <li>为你，熙攘的群众在呼唤，转动着多少殷切的脸。</li>
+   <li>这里，船长！亲爱的父亲！</li>
+   <li>你头颅下边是我的手臂！</li>
+   <li>在甲板上像是在一场梦里，</li>
+   <li>你已倒下，已死去，已冷却。</li>
+   <li>我们的船长不作回答，他的双唇惨白而寂静，</li>
+   <li>我的父亲不能感觉我的手臂，他已没有脉息、没有知觉，</li>
+   <li>我们的船已安全抛锚碇泊，已经结束了它的航程，</li>
+   <li>胜利的船从险恶的旅途归来，我们寻求的已赢得手中。</li>
+   <li>欢呼吧，啊，海岸！轰鸣，啊，洪钟！</li>
+   <li>可是，我却轻移悲伤的步履，</li>
+   <li>在甲板上，那里躺着我的船长，</li>
+   <li>他已倒下，已死去，已冷却。</li>
 </ul>
 <table>
-	<thead>
-    	<tr>
-        	<th scope="col">姓名</th>
-        	<th scope="col">职业</th>
-        </tr>
-	</thead>
-	<tbody>
-    	<tr>
-            <td>瓦尔特·惠特曼</td>
-            <td>诗人</td>
-        </tr>
-	</tbody>
+   <thead>
+      <tr>
+         <th scope="col">姓名</th>
+         <th scope="col">职业</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>瓦尔特·惠特曼</td>
+         <td>诗人</td>
+      </tr>
+   </tbody>
 </table>
 ```
 
@@ -281,4 +281,3 @@ print_background: false
 ```html
 <a href="login/" class="btn btn-secondary">登录</a>
 ```
-

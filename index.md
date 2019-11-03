@@ -81,7 +81,7 @@ print_background: false
 ```html
 <!-- TODO: 对出下联 -->
 <ul>
-    <li>风吹云，云随风，风云变幻</li>
+   <li>风吹云，云随风，风云变幻</li>
 </ul>
 ```
 
@@ -151,20 +151,20 @@ print_background: false
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <style>
-  /*
-    此处省略 n 行样式
-    */
-  </style>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <style>
+   /*
+      此处省略 n 行样式
+   */
+   </style>
 </head>
 <body>
-  <script>
-  // 此处省略 n 行脚本
-  </script>
+   <script>
+   // 此处省略 n 行脚本
+   </script>
 </body>
 </html>
 ```
@@ -175,13 +175,13 @@ print_background: false
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <script src="js/app.js"></script>
+   <script src="js/app.js"></script>
 </body>
 </html>
 ```
@@ -222,47 +222,47 @@ print_background: false
 
 ```html
 <blockquote>
-    <p>啊！<em>船长！</em>我的船长！</p>
+   <p>啊！<em>船长！</em>我的船长！</p>
 </blockquote>
 <ul>
-	<li>啊．船长，我的船长！我们艰苦的航程已经终结，</li>
-	<li>这只船安然渡过了一切风浪，我们寻求的奖赏已经获得。</li>
-	<li>港口在望，我听见钟声在响，人们都在欢呼，</li>
-	<li>目迎着我们的船从容返航，它显得威严而英武。</li>
-	<li>可是，啊，心啊！心啊！心啊！</li>
-	<li>啊．殷红的鲜血长流，</li>
-	<li>在甲板上，那里躺着我的船长，</li>
-	<li>他已倒下，已死去，已冷却。</li>
-	<li>啊，船长，我的船长！起来吧，起来听听这钟声，</li>
-	<li>起来，——旌旗正为你招展——军号正为你发出颤音。</li>
-	<li>为你．送来了这些花束和花环。</li>
-	<li>为你，熙攘的群众在呼唤，转动着多少殷切的脸。</li>
-	<li>这里，船长！亲爱的父亲！</li>
-	<li>你头颅下边是我的手臂！</li>
-	<li>在甲板上像是在一场梦里，</li>
-	<li>你已倒下，已死去，已冷却。</li>
-	<li>我们的船长不作回答，他的双唇惨白而寂静，</li>
-	<li>我的父亲不能感觉我的手臂，他已没有脉息、没有知觉，</li>
-	<li>我们的船已安全抛锚碇泊，已经结束了它的航程，</li>
-	<li>胜利的船从险恶的旅途归来，我们寻求的已赢得手中。</li>
-	<li>欢呼吧，啊，海岸！轰鸣，啊，洪钟！</li>
-	<li>可是，我却轻移悲伤的步履，</li>
-	<li>在甲板上，那里躺着我的船长，</li>
-	<li>他已倒下，已死去，已冷却。</li>
+   <li>啊．船长，我的船长！我们艰苦的航程已经终结，</li>
+   <li>这只船安然渡过了一切风浪，我们寻求的奖赏已经获得。</li>
+   <li>港口在望，我听见钟声在响，人们都在欢呼，</li>
+   <li>目迎着我们的船从容返航，它显得威严而英武。</li>
+   <li>可是，啊，心啊！心啊！心啊！</li>
+   <li>啊．殷红的鲜血长流，</li>
+   <li>在甲板上，那里躺着我的船长，</li>
+   <li>他已倒下，已死去，已冷却。</li>
+   <li>啊，船长，我的船长！起来吧，起来听听这钟声，</li>
+   <li>起来，——旌旗正为你招展——军号正为你发出颤音。</li>
+   <li>为你．送来了这些花束和花环。</li>
+   <li>为你，熙攘的群众在呼唤，转动着多少殷切的脸。</li>
+   <li>这里，船长！亲爱的父亲！</li>
+   <li>你头颅下边是我的手臂！</li>
+   <li>在甲板上像是在一场梦里，</li>
+   <li>你已倒下，已死去，已冷却。</li>
+   <li>我们的船长不作回答，他的双唇惨白而寂静，</li>
+   <li>我的父亲不能感觉我的手臂，他已没有脉息、没有知觉，</li>
+   <li>我们的船已安全抛锚碇泊，已经结束了它的航程，</li>
+   <li>胜利的船从险恶的旅途归来，我们寻求的已赢得手中。</li>
+   <li>欢呼吧，啊，海岸！轰鸣，啊，洪钟！</li>
+   <li>可是，我却轻移悲伤的步履，</li>
+   <li>在甲板上，那里躺着我的船长，</li>
+   <li>他已倒下，已死去，已冷却。</li>
 </ul>
 <table>
-	<thead>
-    	<tr>
-        	<th scope="col">姓名</th>
-        	<th scope="col">职业</th>
-        </tr>
-	</thead>
-	<tbody>
-    	<tr>
-            <td>瓦尔特·惠特曼</td>
-            <td>诗人</td>
-        </tr>
-	</tbody>
+   <thead>
+      <tr>
+         <th scope="col">姓名</th>
+         <th scope="col">职业</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>瓦尔特·惠特曼</td>
+         <td>诗人</td>
+      </tr>
+   </tbody>
 </table>
 ```
 
@@ -281,8 +281,6 @@ print_background: false
 ```html
 <a href="login/" class="btn btn-secondary">登录</a>
 ```
-
-
 
 # CSS 风格指南
 
@@ -355,29 +353,29 @@ border: 0;
 ```css
 /* Header */
 .header {
-	…
+   …
 }
 
 .header-nav {
-	…
+   …
 }
 
 /* Content */
 .gallery {
-	…
+   …
 }
 
 .gallery-img {
-	…
+   …
 }
 
 /* Footer */
 .footer {
-	…
+   …
 }
 
 .footer-nav {
-	…
+   …
 }
 ```
 
@@ -409,11 +407,11 @@ border: 0;
 
 ```css
 .p-998 {
-	…
+   …
 }
 
 .btn-green {
-	…
+   …
 }
 ```
 
@@ -421,13 +419,12 @@ border: 0;
 
 ```css
 .gallery {
-	…
+   …
 }
 
 .btn-default {
-	…
+   …
 }
-
 ```
 
 ### 2.2 类型选择符
@@ -442,26 +439,24 @@ border: 0;
 
 ```css
 ul#example {
-	…
+   …
 }
 
 div.error {
-	…
+   …
 }
-
 ```
 
 **推荐：**
 
 ```css
 .example {
-	…
+   …
 }
 
 .error {
-	…
+   …
 }
-
 ```
 
 ### 2.3 简写属性
@@ -483,7 +478,6 @@ padding-bottom: 2em;
 padding-left: 1em;
 padding-right: 1em;
 padding-top: 0;
-
 ```
 
 **推荐：**
@@ -492,7 +486,6 @@ padding-top: 0;
 border-top: 0;
 font: 100%/1.6 palatino, georgia, serif;
 padding: 0 1em 2em;
-
 ```
 
 ### 2.4 省略0后面的单位
@@ -504,7 +497,6 @@ padding: 0 1em 2em;
 ```css
 margin: 0em;
 padding: 0px;
-
 ```
 
 **推荐：**
@@ -512,7 +504,6 @@ padding: 0px;
 ```css
 margin: 0;
 padding: 0;
-
 ```
 
 ### 2.5 前导零
@@ -523,14 +514,12 @@ padding: 0;
 
 ```css
 font-size: .8em;
-
 ```
 
 **推荐：**
 
 ```css
 font-size: 0.8em;
-
 ```
 
 ### 2.6 十六进制表示法
@@ -541,14 +530,12 @@ font-size: 0.8em;
 
 ```css
 color: #eebbcc;
-
 ```
 
 **推荐：**
 
 ```css
 color: #ebc;
-
 ```
 
 ### 2.7 ID 和 CLASS 名称分隔符
@@ -563,11 +550,11 @@ color: #ebc;
 
 ```css
 .demoimage {
-	…
+   …
 }
 
 .errorStatus {
-	…
+   …
 }
 ```
 
@@ -575,11 +562,11 @@ color: #ebc;
 
 ```css
 .demo-image {
-	…
+   …
 }
 
 .error-status {
-	…
+   …
 }
 ```
 
@@ -599,12 +586,11 @@ color: #ebc;
 
 ```css
 @media screen, projection {
-	html {
-		background: #fff;
-		color: #444;
-	}
+   html {
+      background: #fff;
+      color: #444;
+   }
 }
-
 ```
 
 ### 3.2 声明标点
@@ -615,20 +601,18 @@ color: #ebc;
 
 ```css
 .test {
-	display: block;
-	height: 100px
+   display: block;
+   height: 100px
 }
-
 ```
 
 **推荐：**
 
 ```css
 .test {
-	display: block;
-	height: 100px;
+   display: block;
+   height: 100px;
 }
-
 ```
 
 ### 3.3 属性名标点
@@ -641,7 +625,6 @@ color: #ebc;
 font-weight:bold;
 padding : 0;
 margin :0;
-
 ```
 
 **推荐：**
@@ -650,7 +633,6 @@ margin :0;
 font-weight: bold;
 padding: 0;
 margin: 0;
-
 ```
 
 ### 3.4 声明区标点
@@ -661,26 +643,24 @@ margin: 0;
 
 ```css
 .video-block{
-	margin: 0;
+   margin: 0;
 }
 
 .audio-block{
-	margin: 0;
+   margin: 0;
 }
-
 ```
 
 **推荐：**
 
 ```css
 .video-block {
-	margin: 0;
+   margin: 0;
 }
 
 .audio-block {
-	margin: 0;
+   margin: 0;
 }
-
 ```
 
 ### 3.5 选择符和声明分隔
@@ -691,10 +671,9 @@ margin: 0;
 
 ```css
 h1, h2, h3 {
-	font-weight: normal;
-	line-height: 1.2;
+   font-weight: normal;
+   line-height: 1.2;
 }
-
 ```
 
 **推荐：**
@@ -703,10 +682,9 @@ h1, h2, h3 {
 h1,
 h2,
 h3 {
-	font-weight: normal;
-	line-height: 1.2;
+   font-weight: normal;
+   line-height: 1.2;
 }
-
 ```
 
 ### 3.6 规则分隔
@@ -717,14 +695,13 @@ h3 {
 
 ```css
 html {
-	background: #fff;
+   background: #fff;
 }
 
 body {
-	margin: auto;
-	width: 50%;
+   margin: auto;
+   width: 50%;
 }
-
 ```
 
 ### 3.7 CSS 引号
@@ -736,9 +713,8 @@ body {
 ```css
 @import url("css/links.css");
 html {
-	font-family: 'Open Sans', arial, sans-serif;
+   font-family: 'Open Sans', arial, sans-serif;
 }
-
 ```
 
 **推荐：**
@@ -746,12 +722,9 @@ html {
 ```css
 @import url(css/links.css);
 html {
-	font-family: "Open Sans", arial, sans-serif;
+   font-family: "Open Sans", arial, sans-serif;
 }
-
 ```
-
-
 
 # JavaScript 风格指南
 
@@ -813,7 +786,7 @@ const name = "John Smith";
 */
 
 function Book(title, author) {
-    ...
+   ...
 }
 ```
 
@@ -828,7 +801,7 @@ function Book(title, author) {
 */
 
 function sum(a, b) {
-    return a + b;
+   return a + b;
 }
 ```
 
@@ -868,10 +841,10 @@ function sum(a, b) {
 
 ```javascript
 const foo = function() {
-    return true // 缺少分号
+   return true // 缺少分号
 } // 缺少分号
 function foo() {
-    return true;
+   return true;
 }; // 额外的分号
 ```
 
@@ -879,10 +852,10 @@ function foo() {
 
 ```javascript
 const foo = function() {
-    return true;
+   return true;
 };
 function foo() {
-    return true;
+   return true;
 }
 ```
 
@@ -895,9 +868,8 @@ function foo() {
 ```javascript
 const x = new Boolean(0);
 if (x) {
-    alert('hi');	// 如果 x 是一个真实对象，则显示 hi
+   alert('hi');	// 如果 x 是一个真实对象，则显示 hi
 }
-
 ```
 
 **推荐：**
@@ -905,9 +877,8 @@ if (x) {
 ```javascript
 const x = Boolean(false);
 if (x) {
-    alert('hi');	// 如果 x 是一个否定的布尔值，则显示 hi
+   alert('hi');	// 如果 x 是一个否定的布尔值，则显示 hi
 }
-
 ```
 
 ### 2.4 闭包
@@ -918,21 +889,19 @@ if (x) {
 
 ```javascript
 function foo(element, a, b) {
-    element.onclick = function() { /* 使用 a 和 b */ }
+   element.onclick = function() { /* 使用 a 和 b */ }
 }
-
 ```
 
 **推荐：**
 
 ```javascript
 function foo(element, a, b) {
-    element.onclick = bar(a, b);
+   element.onclick = bar(a, b);
 }
 function bar(a, b) {
-	return function() { /* 使用 a 和 b */ }
+   return function() { /* 使用 a 和 b */ }
 }
-
 ```
 
 ### 2.5 for 、for-in 和 forEach
@@ -946,25 +915,24 @@ function bar(a, b) {
 ```javascript
 const myArray = ['a', 1, 'etc'];
 for (const indexNum in myArray) {
-    console.log(myArray[indexNum]);
+   console.log(myArray[indexNum]);
 }
-var starWars = {
-    "creatures": [
-    	{
-            "name": "bantha",
-            "face": "furry"
-    	},
-    	{
-            "name": "loth-cat",
-            "face": "toothy"
-    	}
-	]
+const starWars = {
+   "creatures": [
+      {
+         "name": "bantha",
+         "face": "furry"
+      },
+      {
+         "name": "loth-cat",
+         "face": "toothy"
+      }
+   ]
 };
 for (const i in starWars.creatures) {
-    console.log(starWars.creatures[i].name);
-    console.log(starWars.creatures[i].face);
+   console.log(starWars.creatures[i].name);
+   console.log(starWars.creatures[i].face);
 };
-
 ```
 
 **推荐：**
@@ -972,30 +940,29 @@ for (const i in starWars.creatures) {
 ```javascript
 const mySimpleArray = ['a', 1, 'etc'];
 const mySimpleArray.forEach(function(val) {
-    console.log(val);
+   console.log(val);
 });
 const starWars = {
-    "creatures": [
-    	{
-            "name": "bantha",
-            "face": "furry"
-    	},
-    	{
-            "name": "loth-cat",
-            "face": "toothy"
-    	}
-	]
+   "creatures": [
+      {
+         "name": "bantha",
+         "face": "furry"
+      },
+      {
+         "name": "loth-cat",
+         "face": "toothy"
+      }
+   ]
 };
 starWars.creatures.forEach(function(creature){
-    console.log(creature.name);
-    console.log(creature.face)
+   console.log(creature.name);
+   console.log(creature.face)
 });
 // 或者
 const myArray = ['a', 1, 'etc'];
 for (let indexCount = 0; indexCount < myArray.length; indexCount++) {
-    console.log(myArray[indexCount]);
+   console.log(myArray[indexCount]);
 };
-
 ```
 
 ### 2.6 对象
@@ -1004,8 +971,6 @@ for (let indexCount = 0; indexCount < myArray.length; indexCount++) {
 
 `for-in` 循环用于循环对象中的键。这很容易出错，因为 `for-in` 不是从 `0` 循环到 `length-1` ，而是循环对象及其**原型链**中的所有现有键。
 
-
-
 如果可以的话，对数据进行整理，这样就不必在对象上迭代。如果不可行，就将 `for-in` 循环的内容包裹在条件语句中，以防止它在原型链上迭代。
 
 **不推荐：**
@@ -1013,9 +978,8 @@ for (let indexCount = 0; indexCount < myArray.length; indexCount++) {
 ```javascript
 const myObj = {'firstName':'Ada','secondName':'Lovelace'};
 for (const key in myObj) {
-    console.log(myObj[key]);
+   console.log(myObj[key]);
 }
-
 ```
 
 **推荐：**
@@ -1023,11 +987,10 @@ for (const key in myObj) {
 ```javascript
 const myObj = {'firstName':'Ada','lastName':'Lovelace'};
 for (const key in myObj) {
-	if (myObj.hasOwnProperty(key)) {
-        console.log(myObj[key]);
-	}
+   if (myObj.hasOwnProperty(key)) {
+      console.log(myObj[key]);
+   }
 }
-
 ```
 
 ### 2.7 多行字符串字面量
@@ -1038,30 +1001,28 @@ for (const key in myObj) {
 
 ```javascript
 const myPoetry = '一二三四五，\
-	上山打老虎，\
-	老虎没打到，\
-	打到小松鼠，\
-	让我数一数，\
-	一二三四五';
-
+   上山打老虎，\
+   老虎没打到，\
+   打到小松鼠，\
+   让我数一数，\
+   一二三四五';
 ```
 
 **推荐：**
 
 ```javascript
 const myPoetry = '黄河远上白云间，' +
-	'一片孤城万仞山。' +
-	'羌笛何须怨杨柳，' +
-	'春风不度玉门关。';
+   '一片孤城万仞山。' +
+   '羌笛何须怨杨柳，' +
+   '春风不度玉门关。';
 
 // or
 const myPoetry = `
-	黄河远上白云间，
-	一片孤城万仞山。
-	羌笛何须怨杨柳，
-	春风不度玉门关。
+   黄河远上白云间，
+   一片孤城万仞山。
+   羌笛何须怨杨柳，
+   春风不度玉门关。
 `;
-
 ```
 
 ### 2.8 数组和对象字面量
@@ -1074,7 +1035,6 @@ const myPoetry = `
 const myArray = new Array(x1, x2, x3);
 const myObject = new Object();
 myObject.a = 0;
-
 ```
 
 **推荐：**
@@ -1082,9 +1042,8 @@ myObject.a = 0;
 ```javascript
 const myArray = [x1, x2, x3];
 const myObject = {
-	a: 0
+   a: 0
 };
-
 ```
 
 ## 三. JavaScript 样式规则
@@ -1101,11 +1060,10 @@ const myObject = {
 
 ```javascript
 if (something) {
-	// 执行某项任务
+   // 执行某项任务
 } else {
-	// 执行另外一项任务
+   // 执行另外一项任务
 }
-
 ```
 
 只有在单行数组和对象初始器可以在写同一行时方可使用这两项。左括号前和右括号后都不应有空格。
@@ -1115,7 +1073,6 @@ if (something) {
 ```javascript
 const array = [1, 2, 3];
 const object = {a: 1, b: 2, c: 3};
-
 ```
 
 多行数组和对象初始器需进行单行缩进，与代码块一样，其括号与内容应位于同一行。
@@ -1124,18 +1081,17 @@ const object = {a: 1, b: 2, c: 3};
 
 ```javascript
 const array = [
-	'Joe <joe@email.com>',
-	'Sal <sal@email.com>',
-	'Murr <murr@email.com>',
-	'Q <q@email.com>'
+   'Joe <joe@email.com>',
+   'Sal <sal@email.com>',
+   'Murr <murr@email.com>',
+   'Q <q@email.com>'
 ];
 
 const object = {
-	id: 'foo',
-	class: 'foo-important',
-	name: 'notification'
+   id: 'foo',
+   class: 'foo-important',
+   name: 'notification'
 };
-
 ```
 
 ### 3.3 字符串
@@ -1145,8 +1101,7 @@ const object = {
 **推荐：**
 
 ```javascript
-var element = 'Click Me';
-
+const element = 'Click Me';
 ```
 
 此规则较为明显的一个例外是在 JSON 对象中： **JSON 要求使用双引号**。
@@ -1176,18 +1131,16 @@ var element = 'Click Me';
 
 ```javascript
 if (val) {
-	return foo();
+   return foo();
 } else {
-	return bar();
+   return bar();
 }
-
 ```
 
 **推荐：**
 
 ```javascript
 return val ? foo() : bar();
-
 ```
 
 ### 4.3 短路求值 `&&` 和 `||`
@@ -1198,13 +1151,13 @@ return val ? foo() : bar();
 
 ```javascript
 function foo(name) {
-	let theName;
-	if (name) {
-    	theName = name;
-	} else {
-    	theName = 'John';
-	}
-  return theName;
+   let theName;
+   if (name) {
+      theName = name;
+   } else {
+      theName = 'John';
+   }
+   return theName;
 }
 ```
 
@@ -1212,7 +1165,7 @@ function foo(name) {
 
 ```javascript
 function foo(name) {
-	return theName = name || 'John';
+   return theName = name || 'John';
 }
 ```
 
@@ -1222,9 +1175,9 @@ function foo(name) {
 
 ```javascript
 if (node) {
-	if (node.kids) {
-        console.log(node.kids);
-	}
+   if (node.kids) {
+      console.log(node.kids);
+   }
 }
 ```
 
@@ -1232,7 +1185,6 @@ if (node) {
 
 ```javascript
 if (node && node.kids) {
-    console.log(node.kids);
+   console.log(node.kids);
 }
 ```
-

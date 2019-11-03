@@ -79,29 +79,29 @@ border: 0;
 ```css
 /* Header */
 .header {
-	…
+   …
 }
 
 .header-nav {
-	…
+   …
 }
 
 /* Content */
 .gallery {
-	…
+   …
 }
 
 .gallery-img {
-	…
+   …
 }
 
 /* Footer */
 .footer {
-	…
+   …
 }
 
 .footer-nav {
-	…
+   …
 }
 ```
 
@@ -133,11 +133,11 @@ border: 0;
 
 ```css
 .p-998 {
-	…
+   …
 }
 
 .btn-green {
-	…
+   …
 }
 ```
 
@@ -145,11 +145,11 @@ border: 0;
 
 ```css
 .gallery {
-	…
+   …
 }
 
 .btn-default {
-	…
+   …
 }
 ```
 
@@ -165,11 +165,11 @@ border: 0;
 
 ```css
 ul#example {
-	…
+   …
 }
 
 div.error {
-	…
+   …
 }
 ```
 
@@ -177,11 +177,11 @@ div.error {
 
 ```css
 .example {
-	…
+   …
 }
 
 .error {
-	…
+   …
 }
 ```
 
@@ -276,11 +276,11 @@ color: #ebc;
 
 ```css
 .demoimage {
-	…
+   …
 }
 
 .errorStatus {
-	…
+   …
 }
 ```
 
@@ -288,11 +288,11 @@ color: #ebc;
 
 ```css
 .demo-image {
-	…
+   …
 }
 
 .error-status {
-	…
+   …
 }
 ```
 
@@ -312,10 +312,10 @@ color: #ebc;
 
 ```css
 @media screen, projection {
-	html {
-		background: #fff;
-		color: #444;
-	}
+   html {
+      background: #fff;
+      color: #444;
+   }
 }
 ```
 
@@ -327,8 +327,8 @@ color: #ebc;
 
 ```css
 .test {
-	display: block;
-	height: 100px
+   display: block;
+   height: 100px
 }
 ```
 
@@ -336,8 +336,8 @@ color: #ebc;
 
 ```css
 .test {
-	display: block;
-	height: 100px;
+   display: block;
+   height: 100px;
 }
 ```
 
@@ -369,11 +369,11 @@ margin: 0;
 
 ```css
 .video-block{
-	margin: 0;
+   margin: 0;
 }
 
 .audio-block{
-	margin: 0;
+   margin: 0;
 }
 ```
 
@@ -381,11 +381,11 @@ margin: 0;
 
 ```css
 .video-block {
-	margin: 0;
+   margin: 0;
 }
 
 .audio-block {
-	margin: 0;
+   margin: 0;
 }
 ```
 
@@ -397,8 +397,8 @@ margin: 0;
 
 ```css
 h1, h2, h3 {
-	font-weight: normal;
-	line-height: 1.2;
+   font-weight: normal;
+   line-height: 1.2;
 }
 ```
 
@@ -408,8 +408,8 @@ h1, h2, h3 {
 h1,
 h2,
 h3 {
-	font-weight: normal;
-	line-height: 1.2;
+   font-weight: normal;
+   line-height: 1.2;
 }
 ```
 
@@ -421,12 +421,12 @@ h3 {
 
 ```css
 html {
-	background: #fff;
+   background: #fff;
 }
 
 body {
-	margin: auto;
-	width: 50%;
+   margin: auto;
+   width: 50%;
 }
 ```
 
@@ -439,7 +439,7 @@ body {
 ```css
 @import url("css/links.css");
 html {
-	font-family: 'Open Sans', arial, sans-serif;
+   font-family: 'Open Sans', arial, sans-serif;
 }
 ```
 
@@ -448,6 +448,6 @@ html {
 ```css
 @import url(css/links.css);
 html {
-	font-family: "Open Sans", arial, sans-serif;
+   font-family: "Open Sans", arial, sans-serif;
 }
 ```

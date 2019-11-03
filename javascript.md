@@ -68,7 +68,7 @@ const name = "John Smith";
 */
 
 function Book(title, author) {
-    ...
+   ...
 }
 ```
 
@@ -83,7 +83,7 @@ function Book(title, author) {
 */
 
 function sum(a, b) {
-    return a + b;
+   return a + b;
 }
 ```
 
@@ -123,10 +123,10 @@ function sum(a, b) {
 
 ```javascript
 const foo = function() {
-    return true // 缺少分号
+   return true // 缺少分号
 } // 缺少分号
 function foo() {
-    return true;
+   return true;
 }; // 额外的分号
 ```
 
@@ -134,10 +134,10 @@ function foo() {
 
 ```javascript
 const foo = function() {
-    return true;
+   return true;
 };
 function foo() {
-    return true;
+   return true;
 }
 ```
 
@@ -150,7 +150,7 @@ function foo() {
 ```javascript
 const x = new Boolean(0);
 if (x) {
-    alert('hi');	// 如果 x 是一个真实对象，则显示 hi
+   alert('hi');	// 如果 x 是一个真实对象，则显示 hi
 }
 ```
 
@@ -159,7 +159,7 @@ if (x) {
 ```javascript
 const x = Boolean(false);
 if (x) {
-    alert('hi');	// 如果 x 是一个否定的布尔值，则显示 hi
+   alert('hi');	// 如果 x 是一个否定的布尔值，则显示 hi
 }
 ```
 
@@ -171,7 +171,7 @@ if (x) {
 
 ```javascript
 function foo(element, a, b) {
-    element.onclick = function() { /* 使用 a 和 b */ }
+   element.onclick = function() { /* 使用 a 和 b */ }
 }
 ```
 
@@ -179,10 +179,10 @@ function foo(element, a, b) {
 
 ```javascript
 function foo(element, a, b) {
-    element.onclick = bar(a, b);
+   element.onclick = bar(a, b);
 }
 function bar(a, b) {
-	return function() { /* 使用 a 和 b */ }
+   return function() { /* 使用 a 和 b */ }
 }
 ```
 
@@ -197,23 +197,23 @@ function bar(a, b) {
 ```javascript
 const myArray = ['a', 1, 'etc'];
 for (const indexNum in myArray) {
-    console.log(myArray[indexNum]);
+   console.log(myArray[indexNum]);
 }
-var starWars = {
-    "creatures": [
-    	{
-            "name": "bantha",
-            "face": "furry"
-    	},
-    	{
-            "name": "loth-cat",
-            "face": "toothy"
-    	}
-	]
+const starWars = {
+   "creatures": [
+      {
+         "name": "bantha",
+         "face": "furry"
+      },
+      {
+         "name": "loth-cat",
+         "face": "toothy"
+      }
+   ]
 };
 for (const i in starWars.creatures) {
-    console.log(starWars.creatures[i].name);
-    console.log(starWars.creatures[i].face);
+   console.log(starWars.creatures[i].name);
+   console.log(starWars.creatures[i].face);
 };
 ```
 
@@ -222,28 +222,28 @@ for (const i in starWars.creatures) {
 ```javascript
 const mySimpleArray = ['a', 1, 'etc'];
 const mySimpleArray.forEach(function(val) {
-    console.log(val);
+   console.log(val);
 });
 const starWars = {
-    "creatures": [
-    	{
-            "name": "bantha",
-            "face": "furry"
-    	},
-    	{
-            "name": "loth-cat",
-            "face": "toothy"
-    	}
-	]
+   "creatures": [
+      {
+         "name": "bantha",
+         "face": "furry"
+      },
+      {
+         "name": "loth-cat",
+         "face": "toothy"
+      }
+   ]
 };
 starWars.creatures.forEach(function(creature){
-    console.log(creature.name);
-    console.log(creature.face)
+   console.log(creature.name);
+   console.log(creature.face)
 });
 // 或者
 const myArray = ['a', 1, 'etc'];
 for (let indexCount = 0; indexCount < myArray.length; indexCount++) {
-    console.log(myArray[indexCount]);
+   console.log(myArray[indexCount]);
 };
 ```
 
@@ -253,8 +253,6 @@ for (let indexCount = 0; indexCount < myArray.length; indexCount++) {
 
 `for-in` 循环用于循环对象中的键。这很容易出错，因为 `for-in` 不是从 `0` 循环到 `length-1` ，而是循环对象及其**原型链**中的所有现有键。
 
-
-
 如果可以的话，对数据进行整理，这样就不必在对象上迭代。如果不可行，就将 `for-in` 循环的内容包裹在条件语句中，以防止它在原型链上迭代。
 
 **不推荐：**
@@ -262,7 +260,7 @@ for (let indexCount = 0; indexCount < myArray.length; indexCount++) {
 ```javascript
 const myObj = {'firstName':'Ada','secondName':'Lovelace'};
 for (const key in myObj) {
-    console.log(myObj[key]);
+   console.log(myObj[key]);
 }
 ```
 
@@ -271,9 +269,9 @@ for (const key in myObj) {
 ```javascript
 const myObj = {'firstName':'Ada','lastName':'Lovelace'};
 for (const key in myObj) {
-	if (myObj.hasOwnProperty(key)) {
-        console.log(myObj[key]);
-	}
+   if (myObj.hasOwnProperty(key)) {
+      console.log(myObj[key]);
+   }
 }
 ```
 
@@ -285,27 +283,27 @@ for (const key in myObj) {
 
 ```javascript
 const myPoetry = '一二三四五，\
-	上山打老虎，\
-	老虎没打到，\
-	打到小松鼠，\
-	让我数一数，\
-	一二三四五';
+   上山打老虎，\
+   老虎没打到，\
+   打到小松鼠，\
+   让我数一数，\
+   一二三四五';
 ```
 
 **推荐：**
 
 ```javascript
 const myPoetry = '黄河远上白云间，' +
-	'一片孤城万仞山。' +
-	'羌笛何须怨杨柳，' +
-	'春风不度玉门关。';
+   '一片孤城万仞山。' +
+   '羌笛何须怨杨柳，' +
+   '春风不度玉门关。';
 
 // or
 const myPoetry = `
-	黄河远上白云间，
-	一片孤城万仞山。
-	羌笛何须怨杨柳，
-	春风不度玉门关。
+   黄河远上白云间，
+   一片孤城万仞山。
+   羌笛何须怨杨柳，
+   春风不度玉门关。
 `;
 ```
 
@@ -326,7 +324,7 @@ myObject.a = 0;
 ```javascript
 const myArray = [x1, x2, x3];
 const myObject = {
-	a: 0
+   a: 0
 };
 ```
 
@@ -344,9 +342,9 @@ const myObject = {
 
 ```javascript
 if (something) {
-	// 执行某项任务
+   // 执行某项任务
 } else {
-	// 执行另外一项任务
+   // 执行另外一项任务
 }
 ```
 
@@ -365,16 +363,16 @@ const object = {a: 1, b: 2, c: 3};
 
 ```javascript
 const array = [
-	'Joe <joe@email.com>',
-	'Sal <sal@email.com>',
-	'Murr <murr@email.com>',
-	'Q <q@email.com>'
+   'Joe <joe@email.com>',
+   'Sal <sal@email.com>',
+   'Murr <murr@email.com>',
+   'Q <q@email.com>'
 ];
 
 const object = {
-	id: 'foo',
-	class: 'foo-important',
-	name: 'notification'
+   id: 'foo',
+   class: 'foo-important',
+   name: 'notification'
 };
 ```
 
@@ -385,7 +383,7 @@ const object = {
 **推荐：**
 
 ```javascript
-var element = 'Click Me';
+const element = 'Click Me';
 ```
 
 此规则较为明显的一个例外是在 JSON 对象中： **JSON 要求使用双引号**。
@@ -415,9 +413,9 @@ var element = 'Click Me';
 
 ```javascript
 if (val) {
-	return foo();
+   return foo();
 } else {
-	return bar();
+   return bar();
 }
 ```
 
@@ -435,13 +433,13 @@ return val ? foo() : bar();
 
 ```javascript
 function foo(name) {
-	let theName;
-	if (name) {
-    	theName = name;
-	} else {
-    	theName = 'John';
-	}
-  return theName;
+   let theName;
+   if (name) {
+      theName = name;
+   } else {
+      theName = 'John';
+   }
+   return theName;
 }
 ```
 
@@ -449,7 +447,7 @@ function foo(name) {
 
 ```javascript
 function foo(name) {
-	return theName = name || 'John';
+   return theName = name || 'John';
 }
 ```
 
@@ -459,9 +457,9 @@ function foo(name) {
 
 ```javascript
 if (node) {
-	if (node.kids) {
-        console.log(node.kids);
-	}
+   if (node.kids) {
+      console.log(node.kids);
+   }
 }
 ```
 
@@ -469,7 +467,6 @@ if (node) {
 
 ```javascript
 if (node && node.kids) {
-    console.log(node.kids);
+   console.log(node.kids);
 }
 ```
-
