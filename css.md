@@ -2,7 +2,13 @@
 
 ## 一. 通用规则
 
-### 1.1 字母大小写
+### 1.1 编码
+
+使用 UTF-8 。
+
+确保你的编辑器将没有字节顺序标记的 UTF-8 用作字符编码。
+
+### 1.2 字母大小写
 
 仅使用小写。
 
@@ -20,7 +26,7 @@ color: #E5E5E5;
 color: #e5e5e5;
 ```
 
-### 1.2 末尾空格
+### 1.3 末尾空格
 
 删除行尾空格。
 
@@ -44,15 +50,9 @@ border: 0;
 "files.trimTrailingWhitespace": true
 ```
 
-### 1.3 缩进
+### 1.4 缩进
 
 整个文件中的缩进应保持前后一致，使用 Tab、2个空格或4个空格都可以，但需保持前后一致。
-
-### 1.4 编码
-
-使用 UTF-8 。
-
-确保你的编辑器将没有字节顺序标记的 UTF-8 用作字符编码。
 
 ### 1.5 注释
 
@@ -69,29 +69,29 @@ border: 0;
 ```css
 /* Header */
 .header {
-…
+	…
 }
 
 .header-nav {
-…
+	…
 }
 
 /* Content */
 .gallery {
-…
+	…
 }
 
 .gallery-img {
-…
+	…
 }
 
 /* Footer */
 .footer {
-…
+	…
 }
 
 .footer-nav {
-…
+	…
 }
 ```
 
@@ -270,7 +270,7 @@ color: #ebc;
 } 
 
 .errorStatus {
-	 …
+	…
 }
 ```
 
@@ -441,4 +441,3 @@ html {
 	font-family: "Open Sans", arial, sans-serif; 
 }
 ```
-
