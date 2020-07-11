@@ -7,6 +7,7 @@
 - [HTML 风格指南](https://evestorm.github.io/front-end-style-guide/html/html.html)
 - [CSS 风格指南](https://evestorm.github.io/front-end-style-guide/html/css.html)
 - [JavaScript 风格指南](https://evestorm.github.io/front-end-style-guide/html/javascript.html)
+- [Git 风格指南](https://evestorm.github.io/front-end-style-guide/html/git.html)
 - [前端代码风格指南 - 合集](https://evestorm.github.io/front-end-style-guide/)
 
 ## Markdown 转 HTML（带侧边栏目录）
