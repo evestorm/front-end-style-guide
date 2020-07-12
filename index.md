@@ -906,7 +906,23 @@ function bar(a, b) {
 
 ### 2.5 for 、for-in 和 forEach
 
-### 2.6 数组
+#### for循环
+
+使用 for 循环过程中，数组的长度，使用一个变量来接收，这样有利于代码执行效率得到提高，而不是每走一次循环，都得重新计算数组长度
+
+**不推荐：**
+
+```js
+for(let i = 0; i < arr.length, i++){}
+```
+
+**推荐：**
+
+```js
+for(let i = 0, len = arr.length; i<len; i++){}
+```
+
+#### 数组
 
 在迭代数组时，相比 `for-in` 循环， `forEach` 或 `for` 循环更具优势。
 
@@ -965,7 +981,7 @@ for (let indexCount = 0; indexCount < myArray.length; indexCount++) {
 };
 ```
 
-### 2.6 对象
+#### 对象
 
 `for-in` 循环用于在对象中循环关键词。这样很容易出错，因为， `for-in` 不会从 `0` 循环，而是循环对象及其原型链中现存的所有关键词。 如果可以的话，对数据进行整理，以避免迭代对象。如果不可行，将 `for-in` 循环的内容包裹在条件语句中，以避免迭代原型链。
 
@@ -993,7 +1009,7 @@ for (const key in myObj) {
 }
 ```
 
-### 2.7 多行字符串字面量
+### 2.6 多行字符串字面量
 
 不要使用。 编译期间无法妥善删除各行开头的空格，斜杠后的空白会引发棘手的问题，虽然大部分脚本引擎支持该操作，但这并不属于规格中的一部分。
 
@@ -1025,7 +1041,7 @@ const myPoetry = `
 `;
 ```
 
-### 2.8 数组和对象字面量
+### 2.7 数组和对象字面量
 
 使用数组和对象字面量，而不是数组和对象构造函数。
 
@@ -1187,6 +1203,50 @@ if (node) {
 if (node && node.kids) {
    console.log(node.kids);
 }
+```
+
+##### 4.5 使用拓展运算符做数组浅拷贝
+
+**不推荐：**
+
+```js
+let arr = [1, 2, 3]
+const len = arr.length
+const copyArr = []
+
+for (let i = 0; i < len; i += 1) {
+  copyArr[i] = arr[i]
+}
+
+// or
+
+copyArr = [].concat(arr);
+```
+
+**推荐：**
+
+```js
+const copyArr = [...arr]
+```
+
+#### 4.6 使用拓展运算符做对象浅拷贝
+
+**不推荐：**
+
+```js
+const original = { a: 1, b: 2 }
+const copy = Object.assign(original, { c: 3 })
+delete copy.a //  改变了 original
+
+const original = { a: 1, b: 2 }
+const copy = Object.assign({}, original, { c: 3 }) // copy => { a: 1, b: 2, c: 3 }
+```
+
+**推荐：**
+
+```js
+const original = { a: 1, b: 2 }
+const copy = { ...original, c: 3 } // copy => { a: 1, b: 2, c: 3 }
 ```
 
 # Git 风格指南
